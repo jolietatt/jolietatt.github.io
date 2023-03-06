@@ -1,0 +1,89 @@
+/* fonts */
+@font-face {
+    font-family: 'permianseriftypefaceregular';
+    src: url('/fonts/PermianSerifTypeface-webfont.eot');
+    src: url('/fonts/PermianSerifTypeface-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/PermianSerifTypeface-webfont.woff2') format('woff2'),
+         url('/fonts/PermianSerifTypeface-webfont.woff') format('woff'),
+         url('/fonts/PermianSerifTypeface-webfont.ttf') format('truetype'),
+         url('/fonts/PermianSerifTypeface-webfont.svg#permianseriftypefaceregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Ostrich Sans';
+	src: url('/fonts/ostrich-sans-black.eot');
+	src: local('â˜º'), url('/fonts/ostrich-sans-black.woff') format('woff'), url('ostrich-sans-black.ttf') format('truetype'), url('ostrich-sans-black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* navigation */
+nav {
+    overflow: hidden;
+    font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
+    /* background-color: #7DB58D;
+    background-color: #4A6844; */
+    background-color: #BEDAC6;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+} 
+nav ul { 
+    list-style-type: none; 
+    margin: 0;
+    background-color: black;
+}
+nav a {
+    float: right;
+    color: #1C3122;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #1C3122;
+    color: white;
+} 
+/* .active {
+    background-color: #1C3122;
+    color: white;
+} */
+
+/* header */
+header {
+    background-color: #1C3122;
+    /* padding: 50px 0 15px 0; */
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+header a {
+    text-decoration: none;
+    color: #BEDAC6;
+    font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
+}
+header h1 {
+    padding-left: 15px;
+    margin: 0;
+}
+
+/* main & headings */
+main {
+    background-color: #BEDAC6;
+    display: block;
+    overflow: auto;
+}
+h1 {
+    font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: #1C3122;
+    padding-left: 15px;
+}
+p {
+    font-family: 'permianseriftypefaceregular', Times, serif;
+    font-size: 16px;
+    color: #1C3122;
+    padding-left: 15px;
+}
