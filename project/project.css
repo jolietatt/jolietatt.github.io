@@ -22,8 +22,6 @@
 nav {
     overflow: hidden;
     font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
-    /* background-color: #7DB58D;
-    background-color: #4A6844; */
     background-color: #BEDAC6;
     position: -webkit-sticky;
     position: sticky;
@@ -79,11 +77,81 @@ h1 {
     font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
     font-size: 4em;
     color: #1C3122;
-    padding-left: 15px;
+    padding-left: 50px;
+    margin-top: 10px;
 }
 p {
     font-family: 'permianseriftypefaceregular', Times, serif;
     font-size: 16px;
     color: #1C3122;
-    padding-left: 15px;
+    padding: 10px 50px 10px 50px;
+    outline: medium solid #1C3122;
 }
+div {
+    padding: 10px 50px 10px 50px;
+}
+ul {
+    font-family: 'permianseriftypefaceregular', Times, serif;
+    font-size: 16px;
+    color: #1C3122;
+    padding-left: 100px;
+    list-style-type: square;
+}
+.onefourth {
+    float: left;
+    width: 25%;
+}
+.onefourth h1 {
+    font-size: 1em;
+}
+
+/* images */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+footer {
+    background-color: #1C3122;
+    font-family: 'permianseriftypefaceregular', Times, serif;
+    color: #BEDAC6;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
+
+/* contact */
+.wrapper {
+    float: left;
+    background-color: #1C3122;
+    padding-left: 0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+}
+.wrapper h1 {
+    color:#BEDAC6;
+}
+.wrapper p {
+    color: #BEDAC6;
+    font-size: 1em;
+}
+.contact {
+    padding-left: 475px;
+}
+
+/* coffee and plants */
+.coffee {
+    padding-left: 400px;
+}
+.coffee h1 {
+    font-size: 3em;
+    padding-bottom: 0;
+    /* padding-left: 400px; */
+}
+/* .coffee p {
+    padding-left: 400px;
+} */
