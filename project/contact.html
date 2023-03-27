@@ -11,10 +11,10 @@
         </header>
         <nav>
             <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="plants.html">Plants</a></li>
-                <li><a href="coffee.html">Coffee</a></li>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="coffee.html">Coffee</a></li>
+                <li><a href="plants.html">Plants</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <main>
@@ -36,8 +36,21 @@
                 Phone: (435) 123 4567<br>
                 Email: <a href="information@brewsandblooms.com">information@brewsandblooms.com</a>
             </p>
+            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">Name: </label>
+                <input type="text" id="myName" required>
+                <label for="myEmail">Email: </label>
+                <input type="email" id="myEmail" required>
+                <label for="myMessage">Message: </label>
+                <textarea name="myMessage" id="myMessage" rows="2" cols="20" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
         </main>
         <footer>
+            <form id="form" role="search" method="get" action="index.html">
+                <input type="search" id="query" placeholder="Search Site" size=15 aria-label="Search">
+                <button>Search</button>
+            </form>
             Copyright &copy; Brews and Blooms 2023 <br> <a href="information@brewsandblooms.com">information@brewsandblooms.com</a>
         </footer>
     </body>
