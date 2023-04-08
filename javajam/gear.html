@@ -10,6 +10,8 @@
         <meta name="keywords" content="Homework, USU, Data Analytics and Information Systems">
         <link rel="shortcut icon" href="favicon.ico">
         <link rel="stylesheet" href="javajam.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="js/common.js" ></script>
     </head>
     <body>
         <div id="wrapper">
@@ -26,20 +28,28 @@
             </ul>
         </nav>
         <main>
-            <div id="herojobs"></div>
-            <h2>Jobs at JavaJam</h2>
-            <p>Want to work at JavaJam? Fill out the form below to start you application. All information is required.</p>
-            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
-                <label for="myName">Name: </label>
-                <input type="text" id="myName" required>
-                <label for="myEmail">Email: </label>
-                <input type="email" id="myEmail" required>
-                <label for="myStart">Start Date: </label>
-                <input type="date" id="myStart" required>
-                <label for="myExperience">Experience: </label>
-                <textarea name="myExperience" id="myExperience" rows="2" cols="20" required></textarea>
-                <input type="submit" value="Apply Now">
-            </form>
+            <div id="herocouch"></div>
+            <h2>JavaJam Gear</h2>
+            <p>JavaJam gear not only looks good, it’s good to your wallet, too.Get a 10% discount when you wear a JavaJam shirt or bring in your JavaJam mug!</p>
+            <div class="item">
+                <img src="images/javashirt.jpg" alt="java shirt">
+                <h3>JavaJam Shirt</h3>
+                <p>JavaJam shirts are comfortable to wear to school and around town. 100% cotton. XL only. $14.95</p>
+                <form method="post"
+                    action="https://webdevbasics.net/cart.html">
+                    <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+            <div class="item">
+                <img src="images/javamug.jpg" alt="Java Mug">
+                <h3>JavaJam Mug</h3>
+                <p>JavaJam mugs carry a full load of caffeine (12 oz.) to jump-start your morning. $9.95</p>
+                <form method="post"
+                    action="https://webdevbasics.net/cart.html">
+                     <input type="submit" value="Add to Cart">
+                </form>
+            </div>
+            </div>
             <div>12010 Garrett Bay Road<br>Ellison Bay, WI 54210<br><a id="mobile" href="tel:888-555-5555"><span id="desktop">888-555-5555</span>888-555-5555</a></div> &nbsp;
         </main>
         <footer>
@@ -47,6 +57,6 @@
             <p id="dateupdate"></p>
             <script src="js/dateupdate.js"></script>
         </footer>
-    </div>
-</body>
+        </div>
+    </body>
 </html>

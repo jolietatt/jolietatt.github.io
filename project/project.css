@@ -119,6 +119,8 @@ ul {
 /* footer */
 footer {
     background-color: #1C3122;
+}
+footer p {
     font-family: 'permianseriftypefaceregular', Times, serif;
     color: #E0EDE4;
     font-size: .60em;
@@ -169,6 +171,9 @@ form { display: flex;
 input, textarea { 
     margin-bottom: .5em; 
 }
+.error { font-family: 'permianseriftypefaceregular', Times, serif;
+    font-style: italic; font-size: .90em;
+    color: #1C3122; margin-left: 1em; }
 
 @media (max-width: 768px) {
     p { 
