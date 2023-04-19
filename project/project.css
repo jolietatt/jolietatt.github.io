@@ -108,6 +108,12 @@ ul {
 #banner {
     background-image: url(images/banner.jpg);
 }
+#index {
+    padding-left: 30px;
+}
+#remove {
+    outline: none;
+}
 
 /* images */
 .container {
@@ -127,6 +133,9 @@ footer p {
     font-style: italic;
     text-align: center;
     padding: 1em;
+}
+footer a:link { 
+    color: #E0EDE4; 
 }
 img {
     border-style: none;
@@ -263,4 +272,9 @@ input, textarea {
         position: sticky;
         top: 0;
     }
+/*     header {
+        background-image: url(images/icon.png);
+        background-repeat: no-repeat;
+        background-position: 0%;
+    } */
 }
