@@ -65,6 +65,7 @@ header a:hover {
 }
 header h1 {
     margin: 0;
+    padding: 5px 50px 5px 50px;
 }
 
 /* main & headings */
@@ -77,19 +78,28 @@ h1 {
     font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
     font-size: 4em;
     color: #1C3122;
-    padding-left: 50px;
+    padding: 5px 50px 5px 25px;
     margin-top: 10px;
+    margin-bottom: 0;
+}
+h2 {
+    font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color: #1C3122;
+    padding: 5px 50px 5px 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 p {
     font-family: 'permianseriftypefaceregular', Times, serif;
     font-size: 16px;
     color: #1C3122;
     outline: medium solid #1C3122;
-    padding: 10px 50px 10px 50px;
-    margin: 0;
+    padding: 10px 50px 10px 25px;
+    margin: 10px 50px 10px 25px;
 }
 div {
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 10px 0;
 }
 ul {
     font-family: 'permianseriftypefaceregular', Times, serif;
@@ -120,6 +130,7 @@ ul {
     display: flex;
     justify-content: space-around;
     background-color: #E0EDE4;
+    padding: 10px 50px 10px 45px;
 }
 
 /* footer */
@@ -147,14 +158,14 @@ img {
 #wrapper {
     float: left;
     background-color: #1C3122;
-    padding-left: 0;
+    padding: 5px 0 5px 15px;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
     width: 400px;
+    margin: 0;
 }
 #wrapper h1 {
     color:#E0EDE4;
+    padding-bottom: 0;
 }
 #wrapper p {
     color: #E0EDE4;
@@ -188,6 +199,9 @@ input, textarea {
     p { 
         outline: none; 
     }
+    h1 {
+        font-size: 3em;
+    }
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -201,19 +215,19 @@ input, textarea {
         text-align: left;
     }
     #contact {
-        padding-left: 50px;
+        padding-left: 10px;
     }
-    #banner {
+/*     #banner {
         background-image: url(images/smallbanner.jpg);
-    }
+    } */
 }
 @media (max-width: 600px) {
     p { 
         outline: none; 
     }
-    main img { 
+/*     main img { 
         display: none;
-    }
+    } */
     nav {
         width: 100%;
         padding: 0;
@@ -264,6 +278,9 @@ input, textarea {
     }
     form {
         width: 80%;
+    }
+    .onefourth {
+        display: none;
     }
 }
 @media (min-width: 1200px) {

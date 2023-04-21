@@ -1,5 +1,5 @@
 $(document).ready(function () {
     $('#new').click(function() {
-        alert("Ask the barista for the featured drink of the month!")
+        alert("April: Matcha Green Tea Latte\nMay: Rose and Cardamom Latte\nJune: Peach Iced Tea")
     });
 });
