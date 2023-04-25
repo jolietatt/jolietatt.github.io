@@ -153,6 +153,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* footer form {
+    padding: 600px;
+} */
 
 /* contact */
 #wrapper {
@@ -183,9 +186,10 @@ img {
     font-size: 3em;
     padding-bottom: 0;
 }
-form { display: flex;
+form { 
+    display: flex;
     flex-direction: column;
-    padding: 1em; 
+    padding: 1em 0 1em 4em;
     width: 40%; 
 }
 input, textarea { 
@@ -276,10 +280,10 @@ input, textarea {
     #banner {
         display: none;
     }
-    form {
+/*     form {
         width: 80%;
     }
-    .onefourth {
+ */    .onefourth {
         display: none;
     }
 }
