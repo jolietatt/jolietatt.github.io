@@ -158,20 +158,20 @@ img {
 #wrapper {
     float: left;
     background-color: #1C3122;
-    padding: 5px 0 5px 15px;
+    padding: 0 0 0 30px;
     text-align: center;
     width: 400px;
     margin: 0;
 }
 #wrapper h1 {
     color:#E0EDE4;
-    padding-bottom: 0;
+    padding: 0;
 }
 #wrapper p {
     color: #E0EDE4;
     font-size: 1em;
 }
-#contact {
+#contactdes {
     padding-left: 475px;
 }
 
