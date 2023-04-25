@@ -42,10 +42,10 @@ nav a:hover {
     background-color: #1C3122;
     color: #E0EDE4;
 } 
-/* .active {
+.active {
     background-color: #1C3122;
-    color: white;
-} */
+    color: #E0EDE4;
+}
 
 /* header */
 header {
