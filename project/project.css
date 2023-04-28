@@ -34,9 +34,9 @@ nav a {
     display: inline-flex;
     color: #1C3122;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1em;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1em;
 }
 nav a:hover {
     background-color: #1C3122;
@@ -65,7 +65,7 @@ header a:hover {
 }
 header h1 {
     margin: 0;
-    padding: 5px 50px 5px 50px;
+    padding: .1em 3em .1em .5em;
 }
 
 /* main & headings */
@@ -78,34 +78,34 @@ h1 {
     font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
     font-size: 4em;
     color: #1C3122;
-    padding: 5px 50px 5px 25px;
-    margin-top: 10px;
+    padding: .1em 3em .1em .5em;
+    margin-top: .6em;
     margin-bottom: 0;
 }
 h2 {
     font-family: 'Ostrich Sans', Arial, Helvetica, sans-serif;
     font-size: 3em;
     color: #1C3122;
-    padding: 5px 50px 5px 25px;
-    margin-top: 10px;
+    padding: .3em 3em .3em 1.5em;
+    margin-top: .6em;
     margin-bottom: 0;
 }
 p {
     font-family: 'permianseriftypefaceregular', Times, serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #1C3122;
     outline: medium solid #1C3122;
-    padding: 10px 50px 10px 25px;
-    margin: 10px 50px 10px 25px;
+    padding: .6em 3em .6em 1.5em;
+    margin: .6em 3em .6em 1.5em;
 }
 div {
-    padding: 10px 50px 10px 0;
+    padding: .6em 3em .6em 0;
 }
 ul {
     font-family: 'permianseriftypefaceregular', Times, serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #1C3122;
-    padding-left: 100px;
+    padding-left: 6.2em;
     list-style-type: square;
 }
 .onefourth {
@@ -119,7 +119,7 @@ ul {
     background-image: url(images/banner.jpg);
 }
 #index {
-    padding-left: 30px;
+    padding-left: 1.8em;
 }
 #remove {
     outline: none;
@@ -130,7 +130,7 @@ ul {
     display: flex;
     justify-content: space-around;
     background-color: #E0EDE4;
-    padding: 10px 50px 10px 45px;
+    padding: .6em 3em .6em 2.8em;
 }
 
 /* footer */
@@ -161,9 +161,9 @@ img {
 #wrapper {
     float: left;
     background-color: #1C3122;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 1.8em;
     text-align: center;
-    width: 400px;
+    width: 25em;
     margin: 0;
 }
 #wrapper h1 {
@@ -175,12 +175,12 @@ img {
     font-size: 1em;
 }
 #contactdes {
-    padding-left: 475px;
+    padding-left: 30em;
 }
 
 /* coffee and plants */
 #coffee {
-    padding-left: 400px;
+    padding-left: 25em;
 }
 #coffee h1 {
     font-size: 3em;
@@ -205,6 +205,7 @@ input, textarea {
     }
     h1 {
         font-size: 3em;
+        padding-left: 1em;
     }
     .container {
         display: flex;
@@ -218,8 +219,11 @@ input, textarea {
         width: 100%;
         text-align: left;
     }
-    #contact {
-        padding-left: 10px;
+    #wrapper h1 {
+        padding-left: 1em;
+    }
+    #contactdes {
+        padding-left: 1em;
     }
 /*     #banner {
         background-image: url(images/smallbanner.jpg);
@@ -266,12 +270,13 @@ input, textarea {
         width: 100%;
         background-color: #E0EDE4;
         text-align: left;
+        padding-left: 1em;
     }
     #wrapper h1 { color:#1C3122; }
     #wrapper p { color:#1C3122; }
-    #contact {
-        padding-left: 50px;
-    }
+/*     #contactdes {
+        padding-left: .5em;
+    } */
     .container {
         display: flex;
         flex-wrap: wrap;
